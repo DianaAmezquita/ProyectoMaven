@@ -63,14 +63,18 @@
 			<version>${jaxb-api.version}</version>
 			<scope>runtime</scope>
 		</dependency>
-		<dependency>
+		<dependency><!-- para la seguridad del token -->
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
-		<dependency>
+		<dependency><!-- para configuracionesdel token -->
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-configuration-processor</artifactId>
 			<optional>true</optional>
+		</dependency>
+		<dependency><!-- para un cliente api -->
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>
