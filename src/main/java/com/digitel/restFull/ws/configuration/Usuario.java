@@ -4,7 +4,8 @@ public class Usuario {
 	
 	private String usuario;
 	
-	private String contraseña;
+	private String contrasena;
+
 
 	public String getUsuario() {
 		return usuario;
@@ -14,12 +15,12 @@ public class Usuario {
 		this.usuario = usuario;
 	}
 
-	public String getContraseña() {
-		return contraseña;
+	public String getContrasena() {
+		return contrasena;
 	}
 
-	public void setContraseña(String contraseña) {
-		this.contraseña = contraseña;
+	public void setContraseña(String contrasena) {
+		this.contrasena = contrasena;
 	}
 	
 	
